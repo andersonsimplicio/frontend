@@ -1,0 +1,108 @@
+.container{
+    width:90%;
+}
+.position{
+    margin-right: 10px!important;
+    padding-right: 0px;
+}
+img{
+    width: 100%;
+    height: 620px !important;
+}
+
+.main-text, .second-text, .simple-text, button{
+    font-family: Roboto;
+    margin-right: 2em;
+}
+
+.main-text{
+    padding-top: 15%;
+    font-size: 3em;
+}
+
+.second-text{
+    opacity: 0.5;
+    font-size: 2.5em;
+   
+}
+.simple-text{
+    opacity: 0.3;
+    font-size: 1em;
+}
+button{
+    background-color: brown!important;
+    border-color: brown!important;
+}
+button:hover{
+    background-color: rgb(192, 51, 51)!important;
+    border-color: rgb(192, 51, 51)!important;
+    transition: 0.7s;
+}
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    .main-text{
+        padding-top: 40%;
+        font-size: 1.5em;
+    }
+    
+    .second-text{
+        opacity: 0.5;
+        font-size: 1.0em;
+       
+    }
+    .simple-text{
+        opacity: 0.3;
+        font-size: 0.8em;
+    }
+    .main-text, .second-text, .simple-text, button{
+        font-family: Roboto;
+        margin-right: 1em;
+    }
+    img{
+        width: 100%;
+        height: 420px !important;
+    }
+    
+
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (max-width: 425px) { 
+
+    .col {
+       flex: 100%;
+       margin-bottom: 10px;
+    }
+
+    .main-text{
+        padding-top: 10%;
+        font-size: 1.0em;
+    }
+    
+    .second-text{
+        opacity: 0.5;
+        font-size: 0.6em;
+       
+    }
+    .simple-text{
+        opacity: 0.3;
+        font-size: 0.3em;
+    }
+    .main-text, .second-text, .simple-text, button{
+        font-family: Roboto;
+    }
+    img{
+        width: 100%;
+    }
+    .position{
+        padding-right: 0px;
+        padding-bottom: 10px;
+    }
+    
+
+ }
+
+
