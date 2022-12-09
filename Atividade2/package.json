@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "init:sass": "node-sass src/style.scss assets/css/style.css -w"
+    "init:sass": "node-sass src/scss/style.scss assets/css/style.css -w"
   },
   "author": "Anderson José Simplicio",
   "license": "ISC",

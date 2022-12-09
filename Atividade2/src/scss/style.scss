@@ -1,0 +1,79 @@
+@import url("http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+
+$poppins:"Poppins","serif";
+$roboto:"Roboto Slab";
+$cor-principal:#ffffff;
+body{
+  background-color:$cor-principal ;
+  opacity: 0.9;
+}
+main{
+  opacity: 1;
+  font-family: 'Courier New', Courier, monospace;
+}
+header{
+  height: 650px;
+  background-color: $cor-principal;
+  text-align: center;
+  
+  h1,h5,h6{
+    color: #000;
+    font-family: $poppins;
+  }
+ 
+  img{
+    width: 100px;
+    margin-top: 170px;
+  }
+
+}
+.container{
+  background-color: rgb(252, 252, 252);
+  font-family: $roboto;
+  margin-bottom: 2em;
+  .row{
+    .btn{
+       width: 10em;
+      
+   }
+   .btn-primary{
+      background-color: #A50DF0!important;
+      border-color: #A50DF0;
+    }
+    .btn-primary:hover{
+      background-color: #b130f1!important;
+      border-color: #d08cf1;
+    }
+  }
+  
+.col-6{
+   margin-top: 20px;
+   img{
+      width: 550px;
+   }
+}
+.col-12{
+  margin-top: 20px;
+  h1{
+   text-align: center;
+  }
+}
+}
+footer{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 5em;
+  margin-bottom: 2em;
+  
+  text-align: center;
+  background-color:$cor-principal;
+  .rede-social{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    .borda{
+      margin-left: 2em;
+    }
+  }
+ 
+}

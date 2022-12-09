@@ -1,35 +1,54 @@
 @import url("http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
 body {
-  color: #636363; }
+  background-color: #ffffff;
+  opacity: 0.9; }
 
-.logo {
-  width: 5rem;
-  height: auto;
-  padding-bottom: 0.5em;
-  margin-bottom: 0.5em; }
+main {
+  opacity: 1;
+  font-family: 'Courier New', Courier, monospace; }
 
-.navbar {
-  background-color: #e3f2fd;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif !important;
-  color: #f7f7f7;
-  font-weight: bold; }
+header {
+  height: 650px;
+  background-color: #ffffff;
+  text-align: center; }
+  header h1, header h5, header h6 {
+    color: #000;
+    font-family: "Poppins", "serif"; }
+  header img {
+    width: 100px;
+    margin-top: 170px; }
 
-.nav-link:hover {
-  text-shadow: 1px 1px 2px #54b8f1, 0 0 1em #eaf4fc, 0 0 0.2em #ebf7ff;
-  color: #fff5f5; }
+.container {
+  background-color: #fcfcfc;
+  font-family: "Roboto Slab";
+  margin-bottom: 2em; }
+  .container .row .btn {
+    width: 10em; }
+  .container .row .btn-primary {
+    background-color: #A50DF0 !important;
+    border-color: #A50DF0; }
+  .container .row .btn-primary:hover {
+    background-color: #b130f1 !important;
+    border-color: #d08cf1; }
+  .container .col-6 {
+    margin-top: 20px; }
+    .container .col-6 img {
+      width: 550px; }
+  .container .col-12 {
+    margin-top: 20px; }
+    .container .col-12 h1 {
+      text-align: center; }
 
-.rounded {
-  width: 650px; }
-
-p {
-  flex-direction: column;
-  flex: auto; }
-
-@media screen and (max-width: 425px) {
-  .smth .navbar {
-    background-color: #e3f2fd;
-    text-transform: uppercase;
-    font-family: "Poppins", sans-serif !important;
-    font-size: 1px !important; } }
+footer {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 5em;
+  margin-bottom: 2em;
+  text-align: center;
+  background-color: #ffffff; }
+  footer .rede-social {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    footer .rede-social .borda {
+      margin-left: 2em; }
