@@ -1,0 +1,17 @@
+{
+  "name": "atividade2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "init:sass": "node-sass src/style.scss assets/css/style.css -w"
+  },
+  "author": "Anderson José Simplicio",
+  "license": "ISC",
+  "description": "Atividade de Tec. Front-End",
+  "keywords": [
+    "Node"
+  ],
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
