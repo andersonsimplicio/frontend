@@ -25,7 +25,7 @@ export function SaidaUsuario({ name }: { name: string |undefined }){
     const handlerEditItem = (oldvalor:Item,newValor:Item,lista:Item[])=>{
         if(newValor.value!==''){
           let posicao:number = lista.findIndex(item => item.id ===oldvalor.id);
-            lista[posicao]=newValor;
+          lista[posicao]=newValor;
         }
     }
 
