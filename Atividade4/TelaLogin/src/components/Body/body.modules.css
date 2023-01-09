@@ -1,0 +1,7 @@
+
+.corpo{
+   margin: 0 3rem;
+   height: auto;
+   background: var(--gray--900);
+   border-radius: 10px;
+}
